@@ -1,3 +1,4 @@
+
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
@@ -30,6 +31,3 @@ jobs:
           name: Deploy App
           command: |
             npm run frontend:deploy
-
-    
-- 
