@@ -20,3 +20,10 @@ jobs:
           name: Install API Dependencies
           command: |
             npm run backend:install
+      - run:
+          name: Build API
+          command: npm run backend:build
+      - run:
+          name: Build Frontend
+          command:  |
+           npm run frontend:build
