@@ -28,9 +28,4 @@ jobs:
           name: Build Frontend
           command:  |
            npm run frontend:build
-  deploy:
-    steps:
-      - run:
-          name: upload code to s3 bucket
-          command: |
-           npm run s3:upload
+           
